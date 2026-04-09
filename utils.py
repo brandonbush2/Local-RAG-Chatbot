@@ -15,3 +15,7 @@ DATE_TRIGGERS - [
     "today's date", "what date", "what day", "current date",
     "what is today", "day is it", "when is today"
 ]
+
+def get_date():
+    now = datetime.now()
+    return now.strftime("%A, %B %d, %Y") #Thursday, April 09, 2026
